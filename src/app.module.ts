@@ -13,7 +13,7 @@ import { TodoRepository } from './repository/todo.repository';
       port: 5432,
       username: 'postgres',
       password: 'postgres',
-      database: 'nik',
+      database: 'todo',
       entities: [Todo],
     }),
   ],
